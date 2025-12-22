@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "titulo": "Albóndigas",
+    "descripcion": "Albondigones históricos",
+    "imagen_principal": "/imagenes/albondigas/portada.jpeg",
+    "ingredientes": [
+      "Carne picada",
+      "Huevos",
+      "Cebolla",
+      "Ajo",
+      "Perejil",
+      "Vino tinto",
+      "Pan rallado / Pan duro",
+      "Harina",
+      "Leche",
+      "Aceite",
+      "Sal"
+    ],
+    "pasos": [
+      {
+        "texto": "Pochar la cebolla. Picar y machacar el ajo y el perejil, añadiendo sal. Mezclar pan y leche hasta obtener una textura homogénea.",
+        "imagen": "/imagenes/albondigas/paso1.jpeg"
+      },
+      {
+        "texto": "Mezclarlo todo: carne picada, cebolla pochada, ajo machacado y leche con pan.",
+        "imagen": "/imagenes/albondigas/paso2.jpeg"
+      },
+      {
+        "texto": "Hacer bolas pequeñas y rebozarlas en harina.",
+        "imagen": "/imagenes/albondigas/paso3.jpeg"
+      },
+      {
+        "texto": "Poner 2 dedos de aceite a fuego alto y dorar las albóndigas.",
+        "imagen": "/imagenes/albondigas/paso4.jpeg"
+      },
+      {
+        "texto": "Limpiar sartén, echar un chorrito de aceite y dos tenedoradas colmadas de harina. Cocinar hasta que esté marrón.",
+        "imagen": "/imagenes/albondigas/paso5.jpeg"
+      },
+      {
+        "texto": "Añadir el vino y sal, y agua hasta que la salsa esté poco espesa (2 vasos).",
+        "imagen": "/imagenes/albondigas/paso6.jpeg"
+      },
+      {
+        "texto": "Incorporar salsa a las albóndigas y cocinar hasta que espese lo deseado.",
+        "imagen": "/imagenes/albondigas/paso7.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Alubias Blancas",
+    "descripcion": "Estofado clásico de alubias con verduras y refrito final.",
+    "imagen_principal": "/imagenes/alubias/portada.jpg",
+    "ingredientes": [
+      "500g Alubia Blanca",
+      "1/2 Pimiento Rojo",
+      "1/2 Pimiento Verde",
+      "1 Cebolla",
+      "2 Zanahorias",
+      "3 Dientes de Ajo",
+      "1 Puerro",
+      "Chorizo (Opcional)",
+      "Puñado de guisantes (Opcional)",
+      "Aceite",
+      "Harina",
+      "Pimentón",
+      "Sal"
+    ],
+    "pasos": [
+      {
+        "texto": "Dejar el puerro entero (y el chorizo si se usa). Picar pequeña la cebolla, el ajo y la zanahoria. Cortar pimientos en cuartos. Echarlo todo a la cazuela.",
+        "imagen": "/imagenes/alubias/paso1.jpg"
+      },
+      {
+        "texto": "Echar más del doble de agua que de alubias. Poner fuego a tope. Echar sal y tapar la olla. Cuando empiece a hervir, bajar a fuego medio-bajo. Añadir guisantes a media cocción.",
+        "imagen": "/imagenes/alubias/paso2.jpg"
+      },
+      {
+        "texto": "Para el refrito: En una sartén a fuego alto echar un chorro de aceite y ajo picado muy fino. Cuando esté dorado, echar una cucharada de harina y remover hasta que se cocine. Retirar del fuego y añadir una cucharada de pimentón.",
+        "imagen": "/imagenes/alubias/paso3.jpg"
+      },
+      {
+        "texto": "Una vez estén las alubias blandas, añadir el refrito y apagar el fuego. Dejar reposar para que densifique la salsa.",
+        "imagen": "/imagenes/alubias/paso4.jpg"
+      }
+    ]
+  }
+]
