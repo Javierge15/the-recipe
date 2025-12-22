@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "Albóndigas",
     "descripcion": "Albondigones históricos",
-    "imagen_principal": "/imagenes/albondigas/portada.jpeg",
+    "imagen_principal": "imagenes/albondigas/portada.jpeg",
     "ingredientes": [
       "Carne picada",
       "Huevos",
@@ -20,31 +20,31 @@
     "pasos": [
       {
         "texto": "Pochar la cebolla. Picar y machacar el ajo y el perejil, añadiendo sal. Mezclar pan y leche hasta obtener una textura homogénea.",
-        "imagen": "/imagenes/albondigas/paso1.jpeg"
+        "imagen": "imagenes/albondigas/paso1.jpeg"
       },
       {
         "texto": "Mezclarlo todo: carne picada, cebolla pochada, ajo machacado y leche con pan.",
-        "imagen": "/imagenes/albondigas/paso2.jpeg"
+        "imagen": "imagenes/albondigas/paso2.jpeg"
       },
       {
         "texto": "Hacer bolas pequeñas y rebozarlas en harina.",
-        "imagen": "/imagenes/albondigas/paso3.jpeg"
+        "imagen": "imagenes/albondigas/paso3.jpeg"
       },
       {
         "texto": "Poner 2 dedos de aceite a fuego alto y dorar las albóndigas.",
-        "imagen": "/imagenes/albondigas/paso4.jpeg"
+        "imagen": "imagenes/albondigas/paso4.jpeg"
       },
       {
         "texto": "Limpiar sartén, echar un chorrito de aceite y dos tenedoradas colmadas de harina. Cocinar hasta que esté marrón.",
-        "imagen": "/imagenes/albondigas/paso5.jpeg"
+        "imagen": "imagenes/albondigas/paso5.jpeg"
       },
       {
         "texto": "Añadir el vino y sal, y agua hasta que la salsa esté poco espesa (2 vasos).",
-        "imagen": "/imagenes/albondigas/paso6.jpeg"
+        "imagen": "imagenes/albondigas/paso6.jpeg"
       },
       {
         "texto": "Incorporar salsa a las albóndigas y cocinar hasta que espese lo deseado.",
-        "imagen": "/imagenes/albondigas/paso7.jpeg"
+        "imagen": "imagenes/albondigas/paso7.jpeg"
       }
     ]
   },
