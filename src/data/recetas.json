@@ -4,16 +4,17 @@
     "titulo": "Albóndigas",
     "descripcion": "Albondigones históricos",
     "imagen_principal": "imagenes/albondigas/portada.jpeg",
+    "imagen_ingredientes": "imagenes/albondigas/ingredientes.jpeg",
     "ingredientes": [
-      "Carne picada",
-      "Huevos",
-      "Cebolla",
-      "Ajo",
-      "Perejil",
-      "Vino tinto",
-      "Pan rallado / Pan duro",
+      "Carne picada: 600g",
+      "Huevos: 2",
+      "Cebolla: 1",
+      "Ajo: 7 dientes",
+      "Perejil: 1 ramillete",
+      "Vino tinto: 1/2 vaso",
+      "Pan duro (o rallado): 1 puñado",
       "Harina",
-      "Leche",
+      "Leche: 1 vaso",
       "Aceite",
       "Sal"
     ],
@@ -50,9 +51,10 @@
   },
   {
     "id": 2,
-    "titulo": "Alubias Blancas",
-    "descripcion": "Estofado clásico de alubias con verduras y refrito final.",
-    "imagen_principal": "/imagenes/alubias/portada.jpg",
+    "titulo": "Alubias",
+    "descripcion": "Alubiones blancos históricos",
+    "imagen_principal": "imagenes/alubias/portada.jpeg",
+    "imagen_ingredientes": "imagenes/alubias/ingredientes.jpeg",
     "ingredientes": [
       "500g Alubia Blanca",
       "1/2 Pimiento Rojo",
@@ -71,19 +73,213 @@
     "pasos": [
       {
         "texto": "Dejar el puerro entero (y el chorizo si se usa). Picar pequeña la cebolla, el ajo y la zanahoria. Cortar pimientos en cuartos. Echarlo todo a la cazuela.",
-        "imagen": "/imagenes/alubias/paso1.jpg"
+        "imagen": "imagenes/alubias/paso1.jpeg"
       },
       {
         "texto": "Echar más del doble de agua que de alubias. Poner fuego a tope. Echar sal y tapar la olla. Cuando empiece a hervir, bajar a fuego medio-bajo. Añadir guisantes a media cocción.",
-        "imagen": "/imagenes/alubias/paso2.jpg"
+        "imagen": "imagenes/alubias/paso2.jpeg"
       },
       {
         "texto": "Para el refrito: En una sartén a fuego alto echar un chorro de aceite y ajo picado muy fino. Cuando esté dorado, echar una cucharada de harina y remover hasta que se cocine. Retirar del fuego y añadir una cucharada de pimentón.",
-        "imagen": "/imagenes/alubias/paso3.jpg"
+        "imagen": "imagenes/alubias/paso3.jpeg"
       },
       {
         "texto": "Una vez estén las alubias blandas, añadir el refrito y apagar el fuego. Dejar reposar para que densifique la salsa.",
-        "imagen": "/imagenes/alubias/paso4.jpg"
+        "imagen": "imagenes/alubias/paso4.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Costillas",
+    "descripcion": "Costillones históricos",
+    "imagen_principal": "imagenes/costillas/portada.jpeg",
+    "imagen_ingredientes": "imagenes/costillas/ingredientes.jpeg",
+    "ingredientes": [
+      "Costillares: 2 (de 800g)",
+      "Cabezas de Ajo: 2",
+      "Miel: 2 cucharadas",
+      "Orégano",
+      "Ajo en Polvo",
+      "Pimienta Negra",
+      "Pimentón Dulce",
+      "Salsa de Soja",
+      "Vinagre",
+      "Vino Blanco (o Coñac)"
+    ],
+    "pasos": [
+      {
+        "texto": "Separar las costillas y echarle las especias. Tapar y dejar marinar mínimo 2 horas.",
+        "imagen": "/imagenes/costillas/paso1.jpg"
+      },
+      {
+        "texto": "Freír las costillas con los ajos pelados.",
+        "imagen": "/imagenes/costillas/paso2.jpg"
+      },
+      {
+        "texto": "Hacer una mezcla de Vino Blanco, un chorro de Salsa de Soja, un chorro de Vinagre y la Miel, y juntarlo con las costillas y ajos fritos.",
+        "imagen": "/imagenes/costillas/paso3.jpg"
+      },
+      {
+        "texto": "Cocinar en la olla hasta que la carne se separe del hueso y se desmenuce fácilmente.",
+        "imagen": "/imagenes/costillas/paso4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Croquetas",
+    "descripcion": "Croquetones históricos",
+    "imagen_principal": "/imagenes/croquetas/portada.jpg",
+    "imagen_ingredientes": "/imagenes/croquetas/ingredientes.jpg",
+    "ingredientes": [
+      "Jamón York",
+      "Quesitos (o cualquier queso)",
+      "Mantequilla",
+      "Harina",
+      "Leche entera",
+      "Nuez Moscada",
+      "Pimienta Negra",
+      "Pan rallado",
+      "Huevo"
+    ],
+    "pasos": [
+      {
+        "texto": "Añadir 4 nueces de mantequilla y un chorro de aceite de oliva a fuego alto.",
+        "imagen": "/imagenes/croquetas/paso1.jpg"
+      },
+      {
+        "texto": "Añadir 10 cucharadas de harina o hasta que empape bien.",
+        "imagen": "/imagenes/croquetas/paso2.jpg"
+      },
+      {
+        "texto": "Trabajar la masa hasta que la harina huela a cocinada.",
+        "imagen": "/imagenes/croquetas/paso3.jpg"
+      },
+      {
+        "texto": "Añadir leche poco a poco e ir amasando para eliminar los grumos.",
+        "imagen": "/imagenes/croquetas/paso4.jpg"
+      },
+      {
+        "texto": "Añadir especias, queso y jamón, y probar punto de sal.",
+        "imagen": "/imagenes/croquetas/paso5.jpg"
+      },
+      {
+        "texto": "Una vez obtenida la textura deseada, trasladar a una fuente previamente humedecida. Dejar enfriar a temperatura ambiente y refrigerar 24h.",
+        "imagen": "/imagenes/croquetas/paso6.jpg"
+      },
+      {
+        "texto": "Formar bolitas y rebozar: harina -> huevo -> pan rallado. Freír a fuego fuerte.",
+        "imagen": "/imagenes/croquetas/paso7.jpg"
+      }
+    ],
+    "notas": "Si se desea congelar, colocar en tabla bien tapada con film. Para freír congeladas: fuego fuerte y pocas a la vez para que no revienten."
+  },
+  {
+    "id": 5,
+    "titulo": "Lomo Relleno",
+    "descripcion": "Lomo relleno de jamón y queso histórico",
+    "imagen_principal": "/imagenes/lomo/portada.jpg",
+    "imagen_ingredientes": "/imagenes/lomo/ingredientes.jpg",
+    "ingredientes": [
+      "Lomo adobado (cortado en libro fino)",
+      "Jamón cocido (rodajas)",
+      "Queso Havarti (tranchetes)",
+      "Harina",
+      "Huevo",
+      "Pan rallado"
+    ],
+    "pasos": [
+      {
+        "texto": "Abrir el lomo y colocar dos tranchetes de queso y una loncha de jamón.",
+        "imagen": "/imagenes/lomo/paso1.jpg"
+      },
+      {
+        "texto": "Cerrar el libro asegurándose de que no sobresalga nada del relleno.",
+        "imagen": "/imagenes/lomo/paso2.jpg"
+      },
+      {
+        "texto": "Rebozar pasando por harina, huevo y pan rallado, apretando bien el exterior para sellar.",
+        "imagen": "/imagenes/lomo/paso3.jpg"
+      },
+      {
+        "texto": "Freír con abundante aceite a fuego medio-alto.",
+        "imagen": "/imagenes/lomo/paso4.jpg"
+      }
+    ],
+    "notas": "Pueden durar congelados hasta 3 meses."
+  },
+  {
+    "id": 6,
+    "titulo": "Pollo en Salsa",
+    "descripcion": "Pollo en salsa con champis históricos",
+    "imagen_principal": "/imagenes/pollo/portada.jpg",
+    "imagen_ingredientes": "/imagenes/pollo/ingredientes.jpg",
+    "ingredientes": [
+      "Pechuga de pollo: 700g",
+      "Champiñones: 1 lata",
+      "Limón: 1",
+      "Harina",
+      "Sal",
+      "Pimienta negra molida",
+      "Caldo de carne (pastilla)"
+    ],
+    "pasos": [
+      {
+        "texto": "Salpimentar los filetes de pollo. Rebozarlos con harina y freírlos en la sartén sin dorar demasiado.",
+        "imagen": "/imagenes/pollo/paso1.jpg"
+      },
+      {
+        "texto": "Trocear champiñones y dorarlos en la misma sartén.",
+        "imagen": "/imagenes/pollo/paso2.jpg"
+      },
+      {
+        "texto": "Echar la pastilla de caldo, 2 cucharadas de harina y un chorro de aceite. Cocinar hasta que la harina se haga.",
+        "imagen": "/imagenes/pollo/paso3.jpg"
+      },
+      {
+        "texto": "Añadir agua hasta lograr una salsa clara, y el zumo de limón. Si espesa mucho, añadir más agua.",
+        "imagen": "/imagenes/pollo/paso4.jpg"
+      },
+      {
+        "texto": "Volver a poner las pechugas en la sartén con la salsa a fuego alto, agitando para que la harina del pollo espese la salsa.",
+        "imagen": "/imagenes/pollo/paso5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Tortilla de Patatas",
+    "descripcion": "Tortillón histórico",
+    "imagen_principal": "/imagenes/tortilla/portada.jpg",
+    "imagen_ingredientes": "/imagenes/tortilla/ingredientes.jpg",
+    "ingredientes": [
+      "Patatas",
+      "Huevos",
+      "Cebolla",
+      "Aceite",
+      "Sal"
+    ],
+    "pasos": [
+      {
+        "texto": "Pelar y cortar patatas finas. Cortar cebolla en cubitos. Salar las patatas.",
+        "imagen": "/imagenes/tortilla/paso1.jpg"
+      },
+      {
+        "texto": "Ponerlo todo a fuego alto en abundante aceite.",
+        "imagen": "/imagenes/tortilla/paso2.jpg"
+      },
+      {
+        "texto": "Cuando reblandezcan, machacarlas con la espátula. Cuando cojan color dorado, escurrir y retirar en una fuente.",
+        "imagen": "/imagenes/tortilla/paso3.jpg"
+      },
+      {
+        "texto": "Añadir los huevos necesarios, corregir de sal y dejar reposar 5 minutos para que se empape.",
+        "imagen": "/imagenes/tortilla/paso4.jpg"
+      },
+      {
+        "texto": "Cuajarla en la sartén, ayudando con una cuchara para redondear los bordes.",
+        "imagen": "/imagenes/tortilla/paso5.jpg"
       }
     ]
   }

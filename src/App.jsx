@@ -1,34 +1,32 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import listaRecetas from './data/recetas.json';
-import RecetaDetalle from './RecetaDetalle'; // Importamos el archivo nuevo
+import RecetaDetalle from './RecetaDetalle';
 
-// --- COMPONENTE DE INICIO (Tu código original retocado) ---
+// --- COMPONENTE DE INICIO (Limusina) ---
 function Inicio() {
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
+    <div className="container">
       <h1>Recetas de J</h1>
-      <p>Recetas de siempre, para siempre</p>
-      <hr />
+      <p className="subtitulo">Recetas de siempre, para siempre</p>
       
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
+      <div className="grid-recetas">
         {listaRecetas.map((receta) => (
-          <div key={receta.id} style={{ border: '1px solid #ccc', borderRadius: '10px', padding: '15px', boxShadow: '2px 2px 5px rgba(0,0,0,0.1)' }}>
+          <div key={receta.id} className="card">
+            
             <img 
               src={receta.imagen_principal} 
               alt={receta.titulo} 
-              style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '8px' }} 
             />
-            <h2>{receta.titulo}</h2>
-            <p>{receta.descripcion}</p>
             
-            {/* CAMBIO IMPORTANTE: */}
-            {/* En vez de <button>, usamos <Link> para navegar */}
-            <Link to={`/receta/${receta.id}`}>
-              <button style={{ background: '#ff6600', color: 'white', border: 'none', padding: '10px', borderRadius: '5px', cursor: 'pointer' }}>
-                Ver receta
-              </button>
-            </Link>
+            <div className="card-content">
+              <h2>{receta.titulo}</h2>
+              <p className="card-desc">{receta.descripcion}</p>
+              
+              <Link to={`/receta/${receta.id}`}>
+                <button>Ver receta</button>
+              </Link>
+            </div>
           
           </div>
         ))}
@@ -37,10 +35,9 @@ function Inicio() {
   );
 }
 
-// --- APP PRINCIPAL (El guardia de tráfico) ---
+// --- APP PRINCIPAL ---
 function App() {
   return (
-    // Aquí usamos HashRouter
     <HashRouter>
       <Routes>
         <Route path="/" element={<Inicio />} />
