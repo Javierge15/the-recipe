@@ -203,7 +203,7 @@ ul li::before {
 .ingredientes-foto {
   width: 100%;          /* Ocupa el ancho disponible */
   max-width: 500px;     /* Pero no más de 500px para que no sea gigante */
-  aspect-ratio: 1 / 1;  /* ¡LA CLAVE! Fuerza que sea siempre cuadrada */
+  /* aspect-ratio: 1 / 1; */
   object-fit: cover;    /* Recorta la imagen si no es cuadrada originalmente para que no se deforme */
   border-radius: 12px;  /* Bordes redondeados */
   border: 1px solid rgba(173, 115, 78, 0.2); /* Borde sutil color terracota */
