@@ -3,19 +3,20 @@ import { useParams, Link } from 'react-router-dom';
 import listaRecetas from './data/recetas.json';
 
 function RecetaDetalle() {
+  // Capturar ID de la receta desde la URL
   const { id } = useParams();
+  // Buscar receta por ID
   const receta = listaRecetas.find(r => r.id === parseInt(id));
-
+  // Seguridad
   if (!receta) return <div className="container"><h2>Receta no encontrada :(</h2></div>;
-
+  // Renderizado de la receta
   return (
     <div className="container">
       
-      <Link to="/" className="volver-link">← Volver al inicio</Link>
+      <Link to="/" className="volver-link">← Inicio</Link>
 
       <h1>{receta.titulo}</h1>
       
-      {/* Imagen Principal */}
       <img 
         src={receta.imagen_principal} 
         alt={receta.titulo} 
@@ -26,15 +27,13 @@ function RecetaDetalle() {
         {receta.descripcion}
       </p>
 
-      {/* BLOQUE INGREDIENTES */}
       <div style={{ background: 'white', padding: '20px', borderRadius: '12px', border: '1px solid rgba(173, 115, 78, 0.1)' }}>
         <h3>Ingredientes</h3>
         
-        {/* Foto cuadrada de ingredientes (Encima de la lista) */}
         {receta.imagen_ingredientes && (
           <img 
             src={receta.imagen_ingredientes} 
-            alt="Bodegón de ingredientes" 
+            alt="Ingredientes" 
             className="ingredientes-foto"
           />
         )}
@@ -51,12 +50,10 @@ function RecetaDetalle() {
         {receta.pasos.map((paso, index) => (
           <div key={index} className="paso-item">
             
-            {/* Texto a la izquierda */}
             <div className="paso-texto-container">
               <p><strong>PASO {index + 1}</strong> {paso.texto}</p>
             </div>
             
-            {/* Imagen a la derecha */}
             {paso.imagen && (
               <img 
                 src={paso.imagen} 
@@ -68,23 +65,21 @@ function RecetaDetalle() {
         ))}
       </div>
 
-      {/* --- AQUÍ ESTÁ LO NUEVO: LAS NOTAS / OBSERVACIONES --- */}
       {receta.notas && (
         <div style={{
           marginTop: '40px',
           padding: '25px',
-          backgroundColor: '#fffbe6',       /* Fondo amarillo muy pálido */
-          borderLeft: '6px solid #dbd294',  /* Tu color dorado "Deco" */
+          backgroundColor: '#fffbe6',
+          borderLeft: '6px solid #dbd294',
           borderRadius: '8px',
-          color: '#451D07',                 /* Tu color marrón "Rebel" */
+          color: '#451D07',
           boxShadow: '0 5px 15px rgba(0,0,0,0.05)'
         }}>
           <h3 style={{ marginTop: 0, color: '#d12323', fontSize: '1.1rem' }}>📝 OBSERVACIONES DEL CHEF</h3>
           <p style={{ margin: 0, whiteSpace: 'pre-line' }}>{receta.notas}</p>
         </div>
       )}
-      {/* -------------------------------------------------- */}
-
+      
     </div>
   );
 }

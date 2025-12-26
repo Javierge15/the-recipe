@@ -3,11 +3,11 @@ import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import listaRecetas from './data/recetas.json';
 import RecetaDetalle from './RecetaDetalle';
 
-// --- COMPONENTE DE INICIO (Limusina) ---
+// --- COMPONENTE DE INICIO ---
 function Inicio() {
   return (
     <div className="container">
-      <h1>Recetas de J</h1>
+      <h1>The Recipe</h1>
       <p className="subtitulo">Recetas de siempre, para siempre</p>
       
       <div className="grid-recetas">
