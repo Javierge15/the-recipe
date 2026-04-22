@@ -1,11 +1,8 @@
 # The Recipe
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Este proyecto es una aplicación web creada para organizar y visualizar mis recetas de cocina favoritas. 
+APP para visualizar mis recetas de cocina.
 
-## Ver el proyecto
-Puedes visitar la web y empezar a cocinar aquí:
-
-### **[https://javierge15.github.io/the-recipe/](https://javierge15.github.io/the-recipe/)** 
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](#)
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
